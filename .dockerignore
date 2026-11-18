@@ -1,0 +1,15 @@
+
+myvenv/
+dependency-check/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.git/
+.vscode/
+.env
+.env.*
+test/
+check_*.py
+requirements-dev.txt

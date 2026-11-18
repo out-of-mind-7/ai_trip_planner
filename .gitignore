@@ -1,0 +1,35 @@
+.env
+myvenv/
+__pycache__/
+
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+myvenv/
+dependency-check/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE
+.vscode/
+
+# Manual testing scripts
+check_*.py
+
+# Logs
+*.log
+
+
+# Local development scripts
+cleanup.py
+read_trips.py
+test_geoapify_connection.py
